@@ -1,0 +1,53 @@
+[0.061s] Invoking command in '/home/danlil240/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/danlil240/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/danlil240/dev_ws/install/cpp_pubsub
+[0.823s] -- The C compiler identification is GNU 9.4.0
+[1.730s] -- The CXX compiler identification is GNU 9.4.0
+[2.205s] -- Check for working C compiler: /usr/bin/cc
+[2.671s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.672s] -- Detecting C compiler ABI info
+[3.096s] -- Detecting C compiler ABI info - done
+[3.113s] -- Detecting C compile features
+[3.114s] -- Detecting C compile features - done
+[3.117s] -- Check for working CXX compiler: /usr/bin/c++
+[3.530s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.531s] -- Detecting CXX compiler ABI info
+[3.979s] -- Detecting CXX compiler ABI info - done
+[3.995s] -- Detecting CXX compile features
+[3.996s] -- Detecting CXX compile features - done
+[4.002s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.036s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.036s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.304s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.426s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.429s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.429s] -- Configured cppcheck include dirs: 
+[4.429s] -- Configured cppcheck exclude dirs and/or files: 
+[4.431s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.431s] -- Configured cpplint exclude dirs and/or files: 
+[4.433s] -- Added test 'lint_cmake' to check CMake code style
+[4.436s] -- Added test 'uncrustify' to check C / C++ code style
+[4.436s] -- Configured uncrustify additional arguments: 
+[4.437s] -- Added test 'xmllint' to check XML markup files
+[4.442s] -- Configuring done
+[4.448s] -- Generating done
+[4.449s] -- Build files have been written to: /home/danlil240/dev_ws/build/cpp_pubsub
+[4.455s] Invoked command in '/home/danlil240/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/danlil240/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/danlil240/dev_ws/install/cpp_pubsub
+[4.462s] Invoking command in '/home/danlil240/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danlil240/dev_ws/build/cpp_pubsub -- -j8 -l8
+[4.535s] Invoked command in '/home/danlil240/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danlil240/dev_ws/build/cpp_pubsub -- -j8 -l8
+[4.576s] Invoking command in '/home/danlil240/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/danlil240/dev_ws/build/cpp_pubsub
+[4.589s] -- Install configuration: ""
+[4.591s] -- Installing: /home/danlil240/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[4.591s] -- Installing: /home/danlil240/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[4.592s] -- Installing: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[4.593s] -- Installing: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[4.593s] -- Installing: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[4.594s] -- Installing: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[4.594s] -- Installing: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[4.595s] -- Installing: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[4.596s] -- Installing: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[4.596s] -- Installing: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[4.596s] -- Installing: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[4.597s] -- Installing: /home/danlil240/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[4.597s] -- Installing: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[4.597s] -- Installing: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[4.598s] -- Installing: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[4.604s] Invoked command in '/home/danlil240/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/danlil240/dev_ws/build/cpp_pubsub

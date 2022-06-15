@@ -1,0 +1,58 @@
+[0.058s] Invoking command in '/home/danlil240/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/danlil240/dev_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/danlil240/dev_ws/install/my_package
+[1.381s] -- The C compiler identification is GNU 9.4.0
+[3.104s] -- The CXX compiler identification is GNU 9.4.0
+[4.085s] -- Check for working C compiler: /usr/bin/cc
+[4.855s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.856s] -- Detecting C compiler ABI info
+[5.776s] -- Detecting C compiler ABI info - done
+[5.794s] -- Detecting C compile features
+[5.795s] -- Detecting C compile features - done
+[5.799s] -- Check for working CXX compiler: /usr/bin/c++
+[6.707s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[6.708s] -- Detecting CXX compiler ABI info
+[7.540s] -- Detecting CXX compiler ABI info - done
+[7.558s] -- Detecting CXX compile features
+[7.560s] -- Detecting CXX compile features - done
+[7.570s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[7.610s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.610s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.890s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[7.991s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.992s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.993s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/danlil240/dev_ws/src/my_package/include>
+[7.993s] -- Configured cppcheck exclude dirs and/or files: 
+[7.994s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.994s] -- Configured cpplint exclude dirs and/or files: 
+[7.995s] -- Added test 'lint_cmake' to check CMake code style
+[7.997s] -- Added test 'uncrustify' to check C / C++ code style
+[7.997s] -- Configured uncrustify additional arguments: 
+[7.998s] -- Added test 'xmllint' to check XML markup files
+[8.001s] -- Configuring done
+[8.008s] -- Generating done
+[8.010s] -- Build files have been written to: /home/danlil240/dev_ws/build/my_package
+[8.020s] Invoked command in '/home/danlil240/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/danlil240/dev_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/danlil240/dev_ws/install/my_package
+[8.023s] Invoking command in '/home/danlil240/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/danlil240/dev_ws/build/my_package -- -j8 -l8
+[8.079s] [35m[1mScanning dependencies of target my_node[0m
+[8.093s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[8.134s] [100%] [32m[1mLinking CXX executable my_node[0m
+[8.946s] [100%] Built target my_node
+[8.969s] Invoked command in '/home/danlil240/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/danlil240/dev_ws/build/my_package -- -j8 -l8
+[9.015s] Invoking command in '/home/danlil240/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/danlil240/dev_ws/build/my_package
+[9.031s] -- Install configuration: ""
+[9.032s] -- Installing: /home/danlil240/dev_ws/install/my_package/lib/my_package/my_node
+[9.033s] -- Installing: /home/danlil240/dev_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[9.033s] -- Installing: /home/danlil240/dev_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[9.034s] -- Installing: /home/danlil240/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[9.034s] -- Installing: /home/danlil240/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[9.035s] -- Installing: /home/danlil240/dev_ws/install/my_package/share/my_package/environment/path.sh
+[9.036s] -- Installing: /home/danlil240/dev_ws/install/my_package/share/my_package/environment/path.dsv
+[9.037s] -- Installing: /home/danlil240/dev_ws/install/my_package/share/my_package/local_setup.bash
+[9.037s] -- Installing: /home/danlil240/dev_ws/install/my_package/share/my_package/local_setup.sh
+[9.038s] -- Installing: /home/danlil240/dev_ws/install/my_package/share/my_package/local_setup.zsh
+[9.038s] -- Installing: /home/danlil240/dev_ws/install/my_package/share/my_package/local_setup.dsv
+[9.039s] -- Installing: /home/danlil240/dev_ws/install/my_package/share/my_package/package.dsv
+[9.040s] -- Installing: /home/danlil240/dev_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[9.040s] -- Installing: /home/danlil240/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[9.041s] -- Installing: /home/danlil240/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[9.041s] -- Installing: /home/danlil240/dev_ws/install/my_package/share/my_package/package.xml
+[9.043s] Invoked command in '/home/danlil240/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/danlil240/dev_ws/build/my_package

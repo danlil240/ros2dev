@@ -1,0 +1,43 @@
+[0.059s] Invoking command in '/home/danlil240/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danlil240/dev_ws/build/cpp_srvcli -- -j8 -l8
+[0.118s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.167s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.623s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.380s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.389s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[22.355s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[22.412s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[22.414s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[22.586s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[22.781s] -- Configuring done
+[22.797s] -- Generating done
+[22.799s] -- Build files have been written to: /home/danlil240/dev_ws/build/cpp_srvcli
+[22.830s] [35m[1mScanning dependencies of target client[0m
+[22.852s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[22.890s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[26.068s] [ 75%] [32m[1mLinking CXX executable server[0m
+[26.605s] [100%] [32m[1mLinking CXX executable client[0m
+[26.798s] [100%] Built target server
+[27.183s] [100%] Built target client
+[27.197s] Invoked command in '/home/danlil240/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/danlil240/dev_ws/build/cpp_srvcli -- -j8 -l8
+[27.231s] Invoking command in '/home/danlil240/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/danlil240/dev_ws/build/cpp_srvcli
+[27.240s] -- Install configuration: ""
+[27.241s] -- Installing: /home/danlil240/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[27.242s] -- Set runtime path of "/home/danlil240/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[27.242s] -- Installing: /home/danlil240/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[27.243s] -- Set runtime path of "/home/danlil240/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[27.244s] -- Up-to-date: /home/danlil240/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[27.244s] -- Up-to-date: /home/danlil240/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[27.244s] -- Up-to-date: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[27.245s] -- Installing: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[27.245s] -- Up-to-date: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[27.246s] -- Installing: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[27.246s] -- Up-to-date: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[27.246s] -- Up-to-date: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[27.246s] -- Up-to-date: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[27.246s] -- Installing: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[27.246s] -- Installing: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[27.246s] -- Up-to-date: /home/danlil240/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[27.247s] -- Up-to-date: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[27.247s] -- Up-to-date: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[27.247s] -- Up-to-date: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[27.250s] Invoked command in '/home/danlil240/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/danlil240/dev_ws/build/cpp_srvcli

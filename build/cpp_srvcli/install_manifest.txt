@@ -1,0 +1,17 @@
+/home/danlil240/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+/home/danlil240/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+/home/danlil240/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+/home/danlil240/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+/home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+/home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+/home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+/home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+/home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+/home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+/home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+/home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+/home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+/home/danlil240/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+/home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+/home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+/home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml

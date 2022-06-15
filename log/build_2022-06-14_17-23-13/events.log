@@ -1,0 +1,685 @@
+[0.000000] (-) TimerEvent: {}
+[0.000235] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000358] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.000452] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000562] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000622] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.016111] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.028183] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.041631] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.054998] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.057163] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.059205] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/danlil240/dev_ws/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/danlil240/dev_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danlil240'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/danlil240/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{5a069d55-87bd-57cf-8a07-2726b203d3e5}'), ('HOME', '/home/danlil240'), ('OLDPWD', '/home/danlil240/dev_ws/src/cpp_srvcli'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/danlil240/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'danlil240'), ('NAME', 'DESKTOP-6R4L25F'), ('WSL_INTEROP', '/run/WSL/15698_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/Scripts:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/IVI/bin:/mnt/c/Program Files/IVI Foundation/IVI/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/DTS/Binn/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Android:/mnt/c/Windows/System32:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/danli/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/danli/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2021.3.3/bin:/snap/bin'), ('WT_SESSION', 'e856d4f9-58e0-4d2f-a2ee-322d7a226e0c'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/danlil240/dev_ws/install/turtlesim:/home/danlil240/dev_ws/install/my_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/danlil240/dev_ws/build/cpp_pubsub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/danlil240/dev_ws/install/turtlesim:/home/danlil240/dev_ws/install/my_package:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.066452] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.067067] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.071256] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/danlil240/dev_ws/build/cpp_srvcli', '--', '-j8', '-l8'], 'cwd': '/home/danlil240/dev_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danlil240'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/danlil240/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{5a069d55-87bd-57cf-8a07-2726b203d3e5}'), ('HOME', '/home/danlil240'), ('OLDPWD', '/home/danlil240/dev_ws/src/cpp_srvcli'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/danlil240/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'danlil240'), ('NAME', 'DESKTOP-6R4L25F'), ('WSL_INTEROP', '/run/WSL/15698_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/Scripts:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/IVI/bin:/mnt/c/Program Files/IVI Foundation/IVI/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/DTS/Binn/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Android:/mnt/c/Windows/System32:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/danli/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/danli/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2021.3.3/bin:/snap/bin'), ('WT_SESSION', 'e856d4f9-58e0-4d2f-a2ee-322d7a226e0c'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/danlil240/dev_ws/install/turtlesim:/home/danlil240/dev_ws/install/my_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/danlil240/dev_ws/build/cpp_srvcli'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/danlil240/dev_ws/install/turtlesim:/home/danlil240/dev_ws/install/my_package:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.076706] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.077345] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[0.080125] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/danlil240/dev_ws/build/my_package', '--', '-j8', '-l8'], 'cwd': '/home/danlil240/dev_ws/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danlil240'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/danlil240/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{5a069d55-87bd-57cf-8a07-2726b203d3e5}'), ('HOME', '/home/danlil240'), ('OLDPWD', '/home/danlil240/dev_ws/src/cpp_srvcli'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/danlil240/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'danlil240'), ('NAME', 'DESKTOP-6R4L25F'), ('WSL_INTEROP', '/run/WSL/15698_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/Scripts:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/IVI/bin:/mnt/c/Program Files/IVI Foundation/IVI/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/DTS/Binn/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Android:/mnt/c/Windows/System32:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/danli/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/danli/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2021.3.3/bin:/snap/bin'), ('WT_SESSION', 'e856d4f9-58e0-4d2f-a2ee-322d7a226e0c'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/danlil240/dev_ws/install/turtlesim:/home/danlil240/dev_ws/install/my_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/danlil240/dev_ws/build/my_package'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/danlil240/dev_ws/install/turtlesim:/home/danlil240/dev_ws/install/my_package:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.087976] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.088874] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.092237] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/danlil240/dev_ws/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/danlil240/dev_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danlil240'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/danlil240/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{5a069d55-87bd-57cf-8a07-2726b203d3e5}'), ('HOME', '/home/danlil240'), ('OLDPWD', '/home/danlil240/dev_ws/src/cpp_srvcli'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/danlil240/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'danlil240'), ('NAME', 'DESKTOP-6R4L25F'), ('WSL_INTEROP', '/run/WSL/15698_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/Scripts:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/IVI/bin:/mnt/c/Program Files/IVI Foundation/IVI/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/DTS/Binn/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Android:/mnt/c/Windows/System32:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/danli/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/danli/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2021.3.3/bin:/snap/bin'), ('WT_SESSION', 'e856d4f9-58e0-4d2f-a2ee-322d7a226e0c'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/danlil240/dev_ws/install/turtlesim:/home/danlil240/dev_ws/install/my_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/danlil240/dev_ws/build/turtlesim'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/danlil240/dev_ws/install/turtlesim:/home/danlil240/dev_ws/install/my_package:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.104366] (-) TimerEvent: {}
+[0.133501] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.148463] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[0.182397] (my_package) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[0.183148] (cpp_srvcli) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.192573] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[0.204657] (-) TimerEvent: {}
+[0.209616] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.211685] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.220832] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/danlil240/dev_ws/build/cpp_pubsub'], 'cwd': '/home/danlil240/dev_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danlil240'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/danlil240/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{5a069d55-87bd-57cf-8a07-2726b203d3e5}'), ('HOME', '/home/danlil240'), ('OLDPWD', '/home/danlil240/dev_ws/src/cpp_srvcli'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/danlil240/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'danlil240'), ('NAME', 'DESKTOP-6R4L25F'), ('WSL_INTEROP', '/run/WSL/15698_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/Scripts:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/IVI/bin:/mnt/c/Program Files/IVI Foundation/IVI/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/DTS/Binn/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Android:/mnt/c/Windows/System32:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/danli/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/danli/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2021.3.3/bin:/snap/bin'), ('WT_SESSION', 'e856d4f9-58e0-4d2f-a2ee-322d7a226e0c'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/danlil240/dev_ws/install/turtlesim:/home/danlil240/dev_ws/install/my_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/danlil240/dev_ws/build/cpp_pubsub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/danlil240/dev_ws/install/turtlesim:/home/danlil240/dev_ws/install/my_package:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.229027] (my_package) CommandEnded: {'returncode': 0}
+[0.245515] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.246978] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[0.249740] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[0.250585] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[0.251412] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[0.252468] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[0.254270] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[0.254741] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[0.255155] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[0.255574] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[0.256468] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[0.256884] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[0.257137] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[0.257487] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[0.257818] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[0.258111] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[0.267991] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[0.293994] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.295382] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.304537] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.305791] (-) TimerEvent: {}
+[0.309663] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.313990] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[0.314770] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/danlil240/dev_ws/build/my_package'], 'cwd': '/home/danlil240/dev_ws/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danlil240'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/danlil240/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{5a069d55-87bd-57cf-8a07-2726b203d3e5}'), ('HOME', '/home/danlil240'), ('OLDPWD', '/home/danlil240/dev_ws/src/cpp_srvcli'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/danlil240/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'danlil240'), ('NAME', 'DESKTOP-6R4L25F'), ('WSL_INTEROP', '/run/WSL/15698_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/Scripts:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/IVI/bin:/mnt/c/Program Files/IVI Foundation/IVI/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/DTS/Binn/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Android:/mnt/c/Windows/System32:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/danli/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/danli/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2021.3.3/bin:/snap/bin'), ('WT_SESSION', 'e856d4f9-58e0-4d2f-a2ee-322d7a226e0c'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/danlil240/dev_ws/install/turtlesim:/home/danlil240/dev_ws/install/my_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/danlil240/dev_ws/build/my_package'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/danlil240/dev_ws/install/turtlesim:/home/danlil240/dev_ws/install/my_package:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.320170] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.335785] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.336558] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/my_package/lib/my_package/my_node\n'}
+[0.337707] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[0.338391] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[0.339954] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[0.340891] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[0.341129] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/my_package/share/my_package/environment/path.sh\n'}
+[0.341795] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/my_package/share/my_package/environment/path.dsv\n'}
+[0.343323] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/my_package/share/my_package/local_setup.bash\n'}
+[0.343936] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/my_package/share/my_package/local_setup.sh\n'}
+[0.347087] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/my_package/share/my_package/local_setup.zsh\n'}
+[0.350207] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/my_package/share/my_package/local_setup.dsv\n'}
+[0.350549] (my_package) StdoutLine: {'line': b'-- Installing: /home/danlil240/dev_ws/install/my_package/share/my_package/package.dsv\n'}
+[0.350879] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[0.351208] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[0.352846] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[0.353190] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/my_package/share/my_package/package.xml\n'}
+[0.353560] (my_package) CommandEnded: {'returncode': 0}
+[0.381887] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.399103] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[0.405956] (-) TimerEvent: {}
+[0.430727] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[0.444391] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[0.486094] (turtlesim) StdoutLine: {'line': b'[ 72%] Built target turtlesim__py\n'}
+[0.506167] (-) TimerEvent: {}
+[0.510915] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target turtle_teleop_key\n'}
+[0.513808] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target draw_square\n'}
+[0.514052] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target mimic\n'}
+[0.547443] (turtlesim) StdoutLine: {'line': b'[ 84%] Built target turtlesim_node\n'}
+[0.556773] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__python\n'}
+[0.598178] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.605302] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.605842] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.606273] (-) TimerEvent: {}
+[0.624337] (turtlesim) CommandEnded: {'returncode': 0}
+[0.638561] (cpp_srvcli) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.706470] (-) TimerEvent: {}
+[0.807076] (-) TimerEvent: {}
+[0.907983] (-) TimerEvent: {}
+[0.922436] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[0.922831] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/danlil240/dev_ws/build/turtlesim'], 'cwd': '/home/danlil240/dev_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danlil240'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/danlil240/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{5a069d55-87bd-57cf-8a07-2726b203d3e5}'), ('HOME', '/home/danlil240'), ('OLDPWD', '/home/danlil240/dev_ws/src/cpp_srvcli'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/danlil240/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'danlil240'), ('NAME', 'DESKTOP-6R4L25F'), ('WSL_INTEROP', '/run/WSL/15698_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/Scripts:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/IVI/bin:/mnt/c/Program Files/IVI Foundation/IVI/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/DTS/Binn/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Android:/mnt/c/Windows/System32:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/danli/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/danli/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2021.3.3/bin:/snap/bin'), ('WT_SESSION', 'e856d4f9-58e0-4d2f-a2ee-322d7a226e0c'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/danlil240/dev_ws/install/turtlesim:/home/danlil240/dev_ws/install/my_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/danlil240/dev_ws/build/turtlesim'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/danlil240/dev_ws/install/turtlesim:/home/danlil240/dev_ws/install/my_package:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.936987] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.938228] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[0.939457] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim\n'}
+[0.940846] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.941242] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/set_pen.h\n'}
+[0.941486] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.h\n'}
+[0.941824] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/kill.h\n'}
+[0.942129] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/spawn.h\n'}
+[0.942377] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.943229] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[0.943529] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[0.944061] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[0.944704] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.h\n'}
+[0.944863] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[0.945034] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[0.945441] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.h\n'}
+[0.945727] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.c\n'}
+[0.946159] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.h\n'}
+[0.947336] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[0.948632] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.c\n'}
+[0.949679] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.h\n'}
+[0.949943] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.h\n'}
+[0.950353] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[0.950883] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.h\n'}
+[0.951618] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[0.951946] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.h\n'}
+[0.952563] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.c\n'}
+[0.953109] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.h\n'}
+[0.953581] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[0.954060] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.h\n'}
+[0.954737] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.956367] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.956748] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[0.957236] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[0.957583] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[0.958633] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[0.960184] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.h\n'}
+[0.960928] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.961339] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.961611] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.h\n'}
+[0.962158] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.h\n'}
+[0.962478] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.c\n'}
+[0.963296] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.h\n'}
+[0.964623] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.h\n'}
+[0.964833] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.h\n'}
+[0.965031] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.h\n'}
+[0.965271] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.c\n'}
+[0.965394] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/color.h\n'}
+[0.965511] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.965622] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/pose.h\n'}
+[0.965851] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[0.965971] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[0.966086] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[0.966200] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim\n'}
+[0.966313] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.966533] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.966750] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[0.966905] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[0.967093] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[0.967251] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[0.967426] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[0.967670] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.967806] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.967965] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[0.968130] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.968228] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.968347] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.968528] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[0.968736] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[0.968875] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[0.969017] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim\n'}
+[0.969130] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.969253] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.969450] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.969595] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.969694] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.969795] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/dds_fastrtps\n'}
+[0.969919] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.970107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.970263] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.970373] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.970518] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.970658] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action/detail/dds_fastrtps\n'}
+[0.970795] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.970982] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.971095] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.971212] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.971454] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/dds_fastrtps\n'}
+[0.971667] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.971782] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.971897] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim\n'}
+[0.972009] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.972236] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.972390] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.c\n'}
+[0.972502] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[0.972643] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[0.972867] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[0.973024] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[0.973134] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[0.973277] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[0.973441] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[0.973651] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[0.973766] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.c\n'}
+[0.974025] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.974291] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.974409] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[0.974525] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[0.974633] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.974827] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.974972] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.975090] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.c\n'}
+[0.975198] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[0.975396] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[0.975895] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.c\n'}
+[0.976124] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[0.976419] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[0.976657] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim\n'}
+[0.976770] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.976886] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/kill.hpp\n'}
+[0.976995] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/set_pen.hpp\n'}
+[0.977176] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/spawn.hpp\n'}
+[0.977323] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.977775] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[0.977951] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__builder.hpp\n'}
+[0.978049] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.hpp\n'}
+[0.978148] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__traits.hpp\n'}
+[0.978273] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[0.978540] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[0.978772] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[0.979134] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[0.979352] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[0.979704] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[0.979914] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[0.980156] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[0.980406] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[0.980620] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[0.980923] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[0.981136] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp\n'}
+[0.981356] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp\n'}
+[0.981662] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.981917] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.982184] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[0.982429] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[0.982702] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[0.982915] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp\n'}
+[0.983187] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.983391] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/pose.hpp\n'}
+[0.983622] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.983757] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__traits.hpp\n'}
+[0.983935] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.hpp\n'}
+[0.984156] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__builder.hpp\n'}
+[0.984442] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.hpp\n'}
+[0.984675] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__traits.hpp\n'}
+[0.984862] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp\n'}
+[0.984979] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/color.hpp\n'}
+[0.985257] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim\n'}
+[0.985487] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.985761] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.985989] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[0.986261] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.986490] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[0.986850] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.987113] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[0.987351] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.987774] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[0.988008] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.988275] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.988617] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[0.988904] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.989135] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.989411] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.989643] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[0.989924] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.990158] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.990447] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.cpp\n'}
+[0.990678] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[0.990957] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.991186] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.991472] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[0.991890] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[0.992166] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[0.992400] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[0.992668] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py\n'}
+[1.008141] (-) TimerEvent: {}
+[1.022746] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action\n'}
+[1.023168] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[1.023823] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[1.024267] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/__init__.py\n'}
+[1.024829] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg\n'}
+[1.025215] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose.py\n'}
+[1.025795] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color.py\n'}
+[1.026030] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color_s.c\n'}
+[1.026282] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose_s.c\n'}
+[1.026564] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/__init__.py\n'}
+[1.027091] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv\n'}
+[1.027249] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[1.027442] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[1.027607] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[1.027723] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[1.027889] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[1.028128] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill_s.c\n'}
+[1.028427] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen.py\n'}
+[1.028709] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[1.029077] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/__init__.py\n'}
+[1.030107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill.py\n'}
+[1.030716] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn.py\n'}
+[1.030959] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.031339] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.031866] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.032291] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/libturtlesim__python.so\n'}
+[1.032523] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[1.032900] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[1.033178] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[1.033549] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[1.033835] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[1.034250] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[1.034534] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[1.035158] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[1.035313] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[1.035700] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[1.035976] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[1.036397] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[1.036545] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[1.036665] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[1.036900] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[1.037229] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[1.037578] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[1.038451] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[1.038937] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[1.040353] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[1.040574] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[1.040777] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[1.041022] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[1.041670] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[1.041989] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[1.042975] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[1.043504] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[1.044567] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[1.045031] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[1.046092] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[1.046922] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/images\n'}
+[1.047473] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[1.047901] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[1.048367] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[1.048984] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[1.049173] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[1.049300] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[1.049429] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/launch\n'}
+[1.049662] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[1.049840] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[1.050089] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[1.050508] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[1.051071] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[1.051481] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[1.052451] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[1.053049] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[1.053594] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[1.054020] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[1.054826] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[1.055985] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[1.057084] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[1.057505] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport.cmake\n'}
+[1.062456] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.062781] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.063438] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.063938] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[1.064495] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.065040] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cppExport.cmake\n'}
+[1.065754] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.066312] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.066813] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[1.067278] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.068519] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[1.068874] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.069189] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.069676] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.070024] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.070308] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.070665] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.071022] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[1.071736] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[1.073013] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[1.073712] (turtlesim) CommandEnded: {'returncode': 0}
+[1.108510] (-) TimerEvent: {}
+[1.209280] (-) TimerEvent: {}
+[1.310045] (-) TimerEvent: {}
+[1.395594] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.402930] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.410587] (-) TimerEvent: {}
+[1.419807] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[1.510767] (-) TimerEvent: {}
+[1.611342] (-) TimerEvent: {}
+[1.712092] (-) TimerEvent: {}
+[1.812610] (-) TimerEvent: {}
+[1.913172] (-) TimerEvent: {}
+[2.013737] (-) TimerEvent: {}
+[2.114344] (-) TimerEvent: {}
+[2.214964] (-) TimerEvent: {}
+[2.315456] (-) TimerEvent: {}
+[2.415943] (-) TimerEvent: {}
+[2.516521] (-) TimerEvent: {}
+[2.617022] (-) TimerEvent: {}
+[2.717915] (-) TimerEvent: {}
+[2.818332] (-) TimerEvent: {}
+[2.919072] (-) TimerEvent: {}
+[3.019541] (-) TimerEvent: {}
+[3.120236] (-) TimerEvent: {}
+[3.220894] (-) TimerEvent: {}
+[3.321591] (-) TimerEvent: {}
+[3.422067] (-) TimerEvent: {}
+[3.522734] (-) TimerEvent: {}
+[3.623180] (-) TimerEvent: {}
+[3.723622] (-) TimerEvent: {}
+[3.824229] (-) TimerEvent: {}
+[3.925016] (-) TimerEvent: {}
+[4.025509] (-) TimerEvent: {}
+[4.126041] (-) TimerEvent: {}
+[4.226718] (-) TimerEvent: {}
+[4.327269] (-) TimerEvent: {}
+[4.427919] (-) TimerEvent: {}
+[4.528471] (-) TimerEvent: {}
+[4.628880] (-) TimerEvent: {}
+[4.729578] (-) TimerEvent: {}
+[4.830148] (-) TimerEvent: {}
+[4.930892] (-) TimerEvent: {}
+[5.031484] (-) TimerEvent: {}
+[5.132191] (-) TimerEvent: {}
+[5.232817] (-) TimerEvent: {}
+[5.333395] (-) TimerEvent: {}
+[5.433880] (-) TimerEvent: {}
+[5.534317] (-) TimerEvent: {}
+[5.634907] (-) TimerEvent: {}
+[5.735487] (-) TimerEvent: {}
+[5.836054] (-) TimerEvent: {}
+[5.936589] (-) TimerEvent: {}
+[6.037153] (-) TimerEvent: {}
+[6.137949] (-) TimerEvent: {}
+[6.238480] (-) TimerEvent: {}
+[6.339198] (-) TimerEvent: {}
+[6.439677] (-) TimerEvent: {}
+[6.540169] (-) TimerEvent: {}
+[6.640674] (-) TimerEvent: {}
+[6.741262] (-) TimerEvent: {}
+[6.841850] (-) TimerEvent: {}
+[6.942376] (-) TimerEvent: {}
+[7.042996] (-) TimerEvent: {}
+[7.143407] (-) TimerEvent: {}
+[7.243891] (-) TimerEvent: {}
+[7.344473] (-) TimerEvent: {}
+[7.445024] (-) TimerEvent: {}
+[7.545433] (-) TimerEvent: {}
+[7.645891] (-) TimerEvent: {}
+[7.746541] (-) TimerEvent: {}
+[7.847047] (-) TimerEvent: {}
+[7.947651] (-) TimerEvent: {}
+[8.048134] (-) TimerEvent: {}
+[8.148852] (-) TimerEvent: {}
+[8.249439] (-) TimerEvent: {}
+[8.349952] (-) TimerEvent: {}
+[8.450463] (-) TimerEvent: {}
+[8.550911] (-) TimerEvent: {}
+[8.651516] (-) TimerEvent: {}
+[8.751914] (-) TimerEvent: {}
+[8.852438] (-) TimerEvent: {}
+[8.952928] (-) TimerEvent: {}
+[9.053514] (-) TimerEvent: {}
+[9.154098] (-) TimerEvent: {}
+[9.254609] (-) TimerEvent: {}
+[9.355107] (-) TimerEvent: {}
+[9.455557] (-) TimerEvent: {}
+[9.556136] (-) TimerEvent: {}
+[9.656629] (-) TimerEvent: {}
+[9.757298] (-) TimerEvent: {}
+[9.857859] (-) TimerEvent: {}
+[9.958381] (-) TimerEvent: {}
+[10.058965] (-) TimerEvent: {}
+[10.159499] (-) TimerEvent: {}
+[10.259946] (-) TimerEvent: {}
+[10.360381] (-) TimerEvent: {}
+[10.461135] (-) TimerEvent: {}
+[10.561761] (-) TimerEvent: {}
+[10.662279] (-) TimerEvent: {}
+[10.762956] (-) TimerEvent: {}
+[10.863389] (-) TimerEvent: {}
+[10.963915] (-) TimerEvent: {}
+[11.064412] (-) TimerEvent: {}
+[11.164955] (-) TimerEvent: {}
+[11.265494] (-) TimerEvent: {}
+[11.366037] (-) TimerEvent: {}
+[11.466582] (-) TimerEvent: {}
+[11.567077] (-) TimerEvent: {}
+[11.667730] (-) TimerEvent: {}
+[11.768192] (-) TimerEvent: {}
+[11.868751] (-) TimerEvent: {}
+[11.969372] (-) TimerEvent: {}
+[12.069879] (-) TimerEvent: {}
+[12.170406] (-) TimerEvent: {}
+[12.270962] (-) TimerEvent: {}
+[12.371497] (-) TimerEvent: {}
+[12.471989] (-) TimerEvent: {}
+[12.572602] (-) TimerEvent: {}
+[12.673103] (-) TimerEvent: {}
+[12.773701] (-) TimerEvent: {}
+[12.874263] (-) TimerEvent: {}
+[12.974776] (-) TimerEvent: {}
+[13.075325] (-) TimerEvent: {}
+[13.175839] (-) TimerEvent: {}
+[13.276536] (-) TimerEvent: {}
+[13.377151] (-) TimerEvent: {}
+[13.477784] (-) TimerEvent: {}
+[13.578322] (-) TimerEvent: {}
+[13.678820] (-) TimerEvent: {}
+[13.779313] (-) TimerEvent: {}
+[13.879927] (-) TimerEvent: {}
+[13.980472] (-) TimerEvent: {}
+[14.081275] (-) TimerEvent: {}
+[14.181752] (-) TimerEvent: {}
+[14.282239] (-) TimerEvent: {}
+[14.382732] (-) TimerEvent: {}
+[14.483326] (-) TimerEvent: {}
+[14.583947] (-) TimerEvent: {}
+[14.684515] (-) TimerEvent: {}
+[14.785286] (-) TimerEvent: {}
+[14.885949] (-) TimerEvent: {}
+[14.986538] (-) TimerEvent: {}
+[15.087023] (-) TimerEvent: {}
+[15.187733] (-) TimerEvent: {}
+[15.288286] (-) TimerEvent: {}
+[15.388724] (-) TimerEvent: {}
+[15.489297] (-) TimerEvent: {}
+[15.589939] (-) TimerEvent: {}
+[15.690492] (-) TimerEvent: {}
+[15.791061] (-) TimerEvent: {}
+[15.891727] (-) TimerEvent: {}
+[15.992445] (-) TimerEvent: {}
+[16.093101] (-) TimerEvent: {}
+[16.193664] (-) TimerEvent: {}
+[16.294229] (-) TimerEvent: {}
+[16.394918] (-) TimerEvent: {}
+[16.495552] (-) TimerEvent: {}
+[16.596278] (-) TimerEvent: {}
+[16.696888] (-) TimerEvent: {}
+[16.797471] (-) TimerEvent: {}
+[16.898036] (-) TimerEvent: {}
+[16.998607] (-) TimerEvent: {}
+[17.099152] (-) TimerEvent: {}
+[17.199648] (-) TimerEvent: {}
+[17.300240] (-) TimerEvent: {}
+[17.400860] (-) TimerEvent: {}
+[17.501406] (-) TimerEvent: {}
+[17.601960] (-) TimerEvent: {}
+[17.702407] (-) TimerEvent: {}
+[17.803010] (-) TimerEvent: {}
+[17.903557] (-) TimerEvent: {}
+[18.003953] (-) TimerEvent: {}
+[18.104524] (-) TimerEvent: {}
+[18.205065] (-) TimerEvent: {}
+[18.305574] (-) TimerEvent: {}
+[18.406072] (-) TimerEvent: {}
+[18.506685] (-) TimerEvent: {}
+[18.607322] (-) TimerEvent: {}
+[18.707979] (-) TimerEvent: {}
+[18.808509] (-) TimerEvent: {}
+[18.908980] (-) TimerEvent: {}
+[19.009576] (-) TimerEvent: {}
+[19.110327] (-) TimerEvent: {}
+[19.210939] (-) TimerEvent: {}
+[19.311413] (-) TimerEvent: {}
+[19.411996] (-) TimerEvent: {}
+[19.512558] (-) TimerEvent: {}
+[19.613236] (-) TimerEvent: {}
+[19.713776] (-) TimerEvent: {}
+[19.814247] (-) TimerEvent: {}
+[19.914744] (-) TimerEvent: {}
+[20.015312] (-) TimerEvent: {}
+[20.115889] (-) TimerEvent: {}
+[20.216480] (-) TimerEvent: {}
+[20.317058] (-) TimerEvent: {}
+[20.417701] (-) TimerEvent: {}
+[20.518226] (-) TimerEvent: {}
+[20.618727] (-) TimerEvent: {}
+[20.719173] (-) TimerEvent: {}
+[20.819794] (-) TimerEvent: {}
+[20.920276] (-) TimerEvent: {}
+[21.020668] (-) TimerEvent: {}
+[21.121171] (-) TimerEvent: {}
+[21.221656] (-) TimerEvent: {}
+[21.322137] (-) TimerEvent: {}
+[21.422832] (-) TimerEvent: {}
+[21.523345] (-) TimerEvent: {}
+[21.623827] (-) TimerEvent: {}
+[21.724368] (-) TimerEvent: {}
+[21.824942] (-) TimerEvent: {}
+[21.925522] (-) TimerEvent: {}
+[22.025993] (-) TimerEvent: {}
+[22.126591] (-) TimerEvent: {}
+[22.227235] (-) TimerEvent: {}
+[22.327861] (-) TimerEvent: {}
+[22.371365] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[22.427600] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[22.427984] (-) TimerEvent: {}
+[22.429845] (cpp_srvcli) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[22.528208] (-) TimerEvent: {}
+[22.602552] (cpp_srvcli) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)\n'}
+[22.628379] (-) TimerEvent: {}
+[22.728849] (-) TimerEvent: {}
+[22.797201] (cpp_srvcli) StdoutLine: {'line': b'-- Configuring done\n'}
+[22.812594] (cpp_srvcli) StdoutLine: {'line': b'-- Generating done\n'}
+[22.814953] (cpp_srvcli) StdoutLine: {'line': b'-- Build files have been written to: /home/danlil240/dev_ws/build/cpp_srvcli\n'}
+[22.829028] (-) TimerEvent: {}
+[22.846020] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target client\x1b[0m\n'}
+[22.868009] (cpp_srvcli) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[22.906011] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[22.929220] (-) TimerEvent: {}
+[23.029697] (-) TimerEvent: {}
+[23.130191] (-) TimerEvent: {}
+[23.230655] (-) TimerEvent: {}
+[23.331124] (-) TimerEvent: {}
+[23.431617] (-) TimerEvent: {}
+[23.532086] (-) TimerEvent: {}
+[23.632651] (-) TimerEvent: {}
+[23.733113] (-) TimerEvent: {}
+[23.833700] (-) TimerEvent: {}
+[23.934240] (-) TimerEvent: {}
+[24.034716] (-) TimerEvent: {}
+[24.135251] (-) TimerEvent: {}
+[24.235740] (-) TimerEvent: {}
+[24.336255] (-) TimerEvent: {}
+[24.436737] (-) TimerEvent: {}
+[24.537193] (-) TimerEvent: {}
+[24.637736] (-) TimerEvent: {}
+[24.738174] (-) TimerEvent: {}
+[24.838684] (-) TimerEvent: {}
+[24.939168] (-) TimerEvent: {}
+[25.039645] (-) TimerEvent: {}
+[25.140170] (-) TimerEvent: {}
+[25.240722] (-) TimerEvent: {}
+[25.341237] (-) TimerEvent: {}
+[25.441812] (-) TimerEvent: {}
+[25.542291] (-) TimerEvent: {}
+[25.642798] (-) TimerEvent: {}
+[25.743306] (-) TimerEvent: {}
+[25.843794] (-) TimerEvent: {}
+[25.944337] (-) TimerEvent: {}
+[26.044849] (-) TimerEvent: {}
+[26.083850] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[26.145133] (-) TimerEvent: {}
+[26.245660] (-) TimerEvent: {}
+[26.346302] (-) TimerEvent: {}
+[26.446834] (-) TimerEvent: {}
+[26.547329] (-) TimerEvent: {}
+[26.620998] (cpp_srvcli) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[26.647600] (-) TimerEvent: {}
+[26.748250] (-) TimerEvent: {}
+[26.814335] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target server\n'}
+[26.848557] (-) TimerEvent: {}
+[26.949077] (-) TimerEvent: {}
+[27.049561] (-) TimerEvent: {}
+[27.150032] (-) TimerEvent: {}
+[27.198769] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target client\n'}
+[27.212664] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[27.244024] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'install'}
+[27.246418] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/danlil240/dev_ws/build/cpp_srvcli'], 'cwd': '/home/danlil240/dev_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danlil240'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/danlil240/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{5a069d55-87bd-57cf-8a07-2726b203d3e5}'), ('HOME', '/home/danlil240'), ('OLDPWD', '/home/danlil240/dev_ws/src/cpp_srvcli'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/danlil240/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'danlil240'), ('NAME', 'DESKTOP-6R4L25F'), ('WSL_INTEROP', '/run/WSL/15698_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/Scripts:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/IVI/bin:/mnt/c/Program Files/IVI Foundation/IVI/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/DTS/Binn/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Android:/mnt/c/Windows/System32:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/danli/AppData/Local/Programs/Python/Python39/:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/danli/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/danli/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2021.3.3/bin:/snap/bin'), ('WT_SESSION', 'e856d4f9-58e0-4d2f-a2ee-322d7a226e0c'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/danlil240/dev_ws/install/turtlesim:/home/danlil240/dev_ws/install/my_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/danlil240/dev_ws/build/cpp_srvcli'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/danlil240/dev_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/danlil240/dev_ws/install/turtlesim:/home/danlil240/dev_ws/install/my_package:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[27.250234] (-) TimerEvent: {}
+[27.256293] (cpp_srvcli) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.256792] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/danlil240/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server\n'}
+[27.257977] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/danlil240/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""\n'}
+[27.258522] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/danlil240/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client\n'}
+[27.259178] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/danlil240/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""\n'}
+[27.259865] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli\n'}
+[27.260066] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli\n'}
+[27.260310] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh\n'}
+[27.260672] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv\n'}
+[27.261233] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh\n'}
+[27.261732] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv\n'}
+[27.262263] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash\n'}
+[27.262358] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh\n'}
+[27.262435] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh\n'}
+[27.262507] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv\n'}
+[27.262577] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv\n'}
+[27.262647] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli\n'}
+[27.262718] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake\n'}
+[27.262788] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake\n'}
+[27.262857] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/danlil240/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml\n'}
+[27.266379] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[27.316763] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 0}
+[27.318682] (-) EventReactorShutdown: {}
